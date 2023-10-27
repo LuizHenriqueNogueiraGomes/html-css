@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cyan;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(165, 82, 82);
+            box-shadow: 5px 4px 9px 0px rgba(0, 0, 0, 0.541); 
+            padding: 10px;
+
+          }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 30px;
+
+        }
+        article{
+            background-color: gray;
+            padding: 5px;
+        }
+        
+        article > aside { 
+            background-color: rgb(71, 69, 69);
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+
+        }
+
+        div#bola {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            margin: 15px;
+            border-radius: 50%;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</nav>
+    </header>
+
+    <main>
+        <section id="noticias"></section>
+        <article>
+            <h2>Teologia 2023</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptates, ad in, harum ipsa necessitatibus molestiae deleniti, alias iure illum unde. Minima explicabo dolorum in quam, tempora quia ex a?</p>
+            <aside>
+                <p>Artigo escrito pelo próprio Ique</p>
+            </aside>
+        </article>
+
+        <section id="assuntos">
+            <p>Esportes, Politica e Tecnologia</p>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Ique</p>
+    </footer>
+    <div id=bola></div>
+</body>
+</html>
